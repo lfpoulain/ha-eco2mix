@@ -1,14 +1,13 @@
 {
-    "domain": "eco2mix",
-    "name": "\u00e9CO2mix",
-    "codeowners": [],
-    "config_flow": true,
-    "documentation": "https://github.com/lfpoulain/ha-eco2mix",
-    "integration_type": "device",
-    "iot_class": "cloud_polling",
-    "issue_tracker": "https://github.com/lfpoulain/ha-eco2mix/issues",
-    "version": "1.0.0",
-    "requirements": [
-        "pytz>=2022.1"
-    ]
+  "domain": "eco2mix",
+  "name": "\u00e9CO2mix",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/lfpoulain/ha-eco2mix",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/lfpoulain/ha-eco2mix/issues",
+  "version": "1.0.0",
+  "requirements": ["pytz>=2022.1"],
+  "single_config_entry": true
 }

@@ -1,27 +1,84 @@
 {
-    "config": {
-        "step": {
-            "user": {
-                "title": "\u00e9CO2mix",
-                "description": "Configuration de l'int\u00e9gration \u00e9CO2mix",
-                "data": {
-                    "scan_interval": "Intervalle de mise \u00e0 jour (minutes)"
-                }
-            }
-        },
-        "abort": {
-            "single_instance_allowed": "D\u00e9j\u00e0 configur\u00e9. Une seule configuration possible."
-        }
-    },
-    "options": {
-        "step": {
-            "init": {
-                "title": "Options \u00e9CO2mix",
-                "description": "Configurer l'intervalle de mise \u00e0 jour",
-                "data": {
-                    "scan_interval": "Intervalle de mise \u00e0 jour (minutes)"
-                }
-            }
-        }
+  "entity": {
+    "sensor": {
+      "consumption": {
+        "name": "Consommation"
+      },
+      "nuclear": {
+        "name": "Production Nucléaire"
+      },
+      "wind": {
+        "name": "Production Éolienne"
+      },
+      "solar": {
+        "name": "Production Solaire"
+      },
+      "hydraulic": {
+        "name": "Production Hydraulique"
+      },
+      "bioenergy": {
+        "name": "Production Bioénergies"
+      },
+      "gas": {
+        "name": "Production Gaz"
+      },
+      "coal": {
+        "name": "Production Charbon"
+      },
+      "fuel": {
+        "name": "Production Fioul"
+      },
+      "total_production": {
+        "name": "Production Totale"
+      },
+      "renewable": {
+        "name": "Production Renouvelable"
+      },
+      "low_carbon": {
+        "name": "Production Bas Carbone"
+      },
+      "pumping": {
+        "name": "Pompage"
+      },
+      "import": {
+        "name": "Importation"
+      },
+      "export": {
+        "name": "Exportation"
+      },
+      "nuclear_percentage": {
+        "name": "Pourcentage Nucléaire"
+      },
+      "wind_percentage": {
+        "name": "Pourcentage Éolien"
+      },
+      "solar_percentage": {
+        "name": "Pourcentage Solaire"
+      },
+      "hydraulic_percentage": {
+        "name": "Pourcentage Hydraulique"
+      },
+      "bioenergy_percentage": {
+        "name": "Pourcentage Bioénergies"
+      },
+      "gas_percentage": {
+        "name": "Pourcentage Gaz"
+      },
+      "coal_percentage": {
+        "name": "Pourcentage Charbon"
+      },
+      "fuel_percentage": {
+        "name": "Pourcentage Fioul"
+      },
+      "renewable_percentage": {
+        "name": "Pourcentage Renouvelable"
+      },
+      "low_carbon_percentage": {
+        "name": "Pourcentage Bas Carbone"
+      },
+      "timestamp": {
+        "name": "Dernière mise à jour"
+      }
     }
+  }
 }

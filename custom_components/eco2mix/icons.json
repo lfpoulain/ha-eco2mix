@@ -1,0 +1,84 @@
+{
+  "entity": {
+    "sensor": {
+      "consumption": {
+        "default": "mdi:flash"
+      },
+      "nuclear": {
+        "default": "mdi:atom"
+      },
+      "wind": {
+        "default": "mdi:wind-turbine"
+      },
+      "solar": {
+        "default": "mdi:solar-power"
+      },
+      "hydraulic": {
+        "default": "mdi:hydro-power"
+      },
+      "bioenergy": {
+        "default": "mdi:leaf"
+      },
+      "gas": {
+        "default": "mdi:fire"
+      },
+      "coal": {
+        "default": "mdi:factory"
+      },
+      "fuel": {
+        "default": "mdi:oil"
+      },
+      "total_production": {
+        "default": "mdi:lightning-bolt"
+      },
+      "renewable": {
+        "default": "mdi:leaf-circle"
+      },
+      "low_carbon": {
+        "default": "mdi:molecule-co2"
+      },
+      "pumping": {
+        "default": "mdi:pump"
+      },
+      "import": {
+        "default": "mdi:import"
+      },
+      "export": {
+        "default": "mdi:export"
+      },
+      "nuclear_percentage": {
+        "default": "mdi:atom"
+      },
+      "wind_percentage": {
+        "default": "mdi:wind-turbine"
+      },
+      "solar_percentage": {
+        "default": "mdi:solar-power"
+      },
+      "hydraulic_percentage": {
+        "default": "mdi:hydro-power"
+      },
+      "bioenergy_percentage": {
+        "default": "mdi:leaf"
+      },
+      "gas_percentage": {
+        "default": "mdi:fire"
+      },
+      "coal_percentage": {
+        "default": "mdi:factory"
+      },
+      "fuel_percentage": {
+        "default": "mdi:oil"
+      },
+      "renewable_percentage": {
+        "default": "mdi:leaf-circle"
+      },
+      "low_carbon_percentage": {
+        "default": "mdi:molecule-co2"
+      },
+      "timestamp": {
+        "default": "mdi:clock"
+      }
+    }
+  }
+}
