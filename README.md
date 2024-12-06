@@ -55,40 +55,6 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 
 ![Configuration Interface](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/main/images/config.png)
 
-## 🔧 Configuration des templates GW
-
-Ajoutez ces templates dans votre `configuration.yaml` pour obtenir les valeurs en GigaWatts :
-
-```yaml
-template:
-  - sensor:
-      - name: "Consommation GW"
-        unit_of_measurement: "GW"
-        state: >
-          {{ states('sensor.consommation')|float / 1000000 }}
-        availability: >
-          {{ states('sensor.consommation') not in ['unknown', 'unavailable'] }}
-      
-      - name: "Production GW"
-        unit_of_measurement: "GW"
-        state: >
-          {{ states('sensor.production_totale')|float / 1000000 }}
-        availability: >
-          {{ states('sensor.production_totale') not in ['unknown', 'unavailable'] }}
-      
-      - name: "Export GW"
-        unit_of_measurement: "GW"
-        state: >
-          {{ states('sensor.export')|float / 1000000 }}
-        availability: >
-          {{ states('sensor.export') not in ['unknown', 'unavailable'] }}
-```
-
-Ces templates créent de nouveaux capteurs qui :
-- Convertissent automatiquement les valeurs de kW en GW
-- Gèrent les cas d'indisponibilité des données
-- Peuvent être utilisés directement dans le dashboard
-
 
 ## 📊 Dashboard
 
