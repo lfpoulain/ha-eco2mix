@@ -8,7 +8,7 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 [![maintained](https://img.shields.io/maintenance/yes/2024.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Dashboard Preview](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/main/images/dashboard.png)
+![Dashboard Preview](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/images/dashboard.png)
 
 ## ✨ Fonctionnalités
 
@@ -38,7 +38,7 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 5. Rechercher "éCO2mix"
 6. Installer et redémarrer Home Assistant
 
-![Installation Steps](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/main/images/installation.png)
+![Installation Steps](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/images/installation.png)
 
 ### Installation Manuelle 🛠️
 
@@ -53,7 +53,7 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 3. Rechercher "éCO2mix"
 4. Sélectionner les capteurs souhaités
 
-![Configuration Interface](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/main/images/config.png)
+![Configuration Interface](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/images/config.png)
 
 
 ## 📊 Dashboard
@@ -61,7 +61,7 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 Le dashboard est créé automatiquement avec :
 
 ### Vue Principale
-![Main View](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/main/images/main_view.png)
+![Main View](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/images/main_view.png)
 
 - 📊 Valeurs principales en GW
 - 📈 Graphique d'évolution 24h
@@ -111,3 +111,4 @@ Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détai
 
 ---
 Made with ❤️ by [@lfpoulain](https://github.com/lfpoulain)
+And with the generous help of [@piitaya](https://github.com/piitaya)
