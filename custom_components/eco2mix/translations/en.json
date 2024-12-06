@@ -1,0 +1,84 @@
+{
+  "entity": {
+    "sensor": {
+      "consumption": {
+        "name": "Consumption"
+      },
+      "nuclear": {
+        "name": "Nuclear production"
+      },
+      "wind": {
+        "name": "Wind production"
+      },
+      "solar": {
+        "name": "Solar Production"
+      },
+      "hydraulic": {
+        "name": "Hydraulic Production"
+      },
+      "bioenergy": {
+        "name": "Bioenergy Production"
+      },
+      "gas": {
+        "name": "Gas Production"
+      },
+      "coal": {
+        "name": "Coal Production"
+      },
+      "fuel": {
+        "name": "Fuel Production"
+      },
+      "total_production": {
+        "name": "Total production"
+      },
+      "renewable": {
+        "name": "Renewable production"
+      },
+      "low_carbon": {
+        "name": "Low carbon production"
+      },
+      "pumping": {
+        "name": "Pumping"
+      },
+      "import": {
+        "name": "Import"
+      },
+      "export": {
+        "name": "Export"
+      },
+      "nuclear_percentage": {
+        "name": "Nuclear percentage"
+      },
+      "wind_percentage": {
+        "name": "Wind percentage"
+      },
+      "solar_percentage": {
+        "name": "Solar percentage"
+      },
+      "hydraulic_percentage": {
+        "name": "Hydraulic percentage"
+      },
+      "bioenergy_percentage": {
+        "name": "Bioenergy percentage"
+      },
+      "gas_percentage": {
+        "name": "Gas percentage"
+      },
+      "coal_percentage": {
+        "name": "Coal percentage"
+      },
+      "fuel_percentage": {
+        "name": "Fuel percentage"
+      },
+      "renewable_percentage": {
+        "name": "Renewable percentage"
+      },
+      "low_carbon_percentage": {
+        "name": "Low carbon percentage"
+      },
+      "timestamp": {
+        "name": "Last update"
+      }
+    }
+  }
+}

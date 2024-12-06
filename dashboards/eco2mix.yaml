@@ -1,0 +1,72 @@
+views:
+  - title: éCO2mix
+    path: eco2mix
+    icon: mdi:flash
+    cards:
+# Suite du DASHBOARD_CONTENT
+      # En-tête avec valeurs principales
+      - type: grid
+        columns: 3
+        square: false
+        cards:
+          - type: entity
+            name: Consommation
+            entity: sensor.consommation_gw
+            icon: mdi:flash
+          - type: entity
+            name: Production
+            entity: sensor.production_gw
+            icon: mdi:lightning-bolt
+          - type: entity
+            name: Export
+            entity: sensor.export_gw
+            icon: mdi:export
+
+      # Graphique Production/Consommation
+      - type: custom:apexcharts-card
+        header:
+          title: Production et Consommation
+          show: true
+        graph_span: 24h
+        series:
+          - entity: sensor.consommation_gw
+            name: Consommation
+            type: line
+            stroke_width: 2
+            color: '#e74c3c'
+          - entity: sensor.production_gw
+            name: Production
+            type: line
+            stroke_width: 2
+            color: '#2ecc71'
+
+      # Mix énergétique - Graphique en camembert
+      - type: custom:pie-chart-card
+        title: Répartition de la Production
+        entities:
+          - entity: sensor.pourcentage_nucleaire
+            name: Nucléaire
+            color: '#3498db'
+          - entity: sensor.pourcentage_eolien
+            name: Éolien
+            color: '#27ae60'
+          - entity: sensor.pourcentage_solaire
+            name: Solaire
+            color: '#f1c40f'
+          - entity: sensor.pourcentage_hydraulique
+            name: Hydraulique
+            color: '#3498db'
+          - entity: sensor.pourcentage_bioenergies
+            name: Bioénergies
+            color: '#2ecc71'
+          - entity: sensor.pourcentage_gaz
+            name: Gaz
+            color: '#e67e22'
+          - entity: sensor.pourcentage_charbon
+            name: Charbon
+            color: '#7f8c8d'
+          - entity: sensor.pourcentage_fioul
+            name: Fioul
+            color: '#95a5a6'
+        animation: true
+        card_height: 400
