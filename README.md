@@ -49,21 +49,19 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 1. Aller dans Configuration > Intégrations
 2. Cliquer sur le bouton "+" 
 3. Rechercher "éCO2mix"
-4. Sélectionner les capteurs souhaités
-
-![Configuration Interface](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/refs/heads/main/images/config.png)
 
 
 ## 📊 Dashboard
 
-Le dashboard est créé automatiquement avec :
+Le dashboard est disponnible dans le repo :
 
 ### Vue Principale
 ![Main View](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/refs/heads/main/images/main_view.png)
 
-- 📊 Valeurs principales en GW
+- 📊 Valeurs principales
 - 📈 Graphique d'évolution 24h
 - 🥧 Répartition de la production
+- "Lovelace Pie Chart Card" necessaire
 
 ### Sources d'Énergie Suivies
 
@@ -96,7 +94,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 
 Besoin d'aide ? 
 - 📝 Ouvrir une [Issue](https://github.com/lfpoulain/ha-eco2mix/issues)
-- 💬 Rejoindre la discussion
+- 💬 Rejoindre notre discord
 
 ## 👏 Crédits
 
