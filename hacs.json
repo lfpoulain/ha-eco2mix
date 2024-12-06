@@ -1,0 +1,10 @@
+{
+  "name": "éCO2mix",
+  "country": "FR",
+  "render_readme": true,
+  "domains": ["sensor"],
+  "homeassistant": "2023.8.0",
+  "hacs": "1.6.0",
+  "documentation": "https://github.com/lfpoulain/ha-eco2mix",
+  "issue_tracker": "https://github.com/lfpoulain/ha-eco2mix/issues"
+} 
