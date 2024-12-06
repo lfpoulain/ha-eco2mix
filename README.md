@@ -1,7 +1,5 @@
 # 🔌 éCO2mix pour Home Assistant
 
-> 📊 Suivez en temps réel la production et la consommation d'électricité en France !
-
 Cette intégration Home Assistant vous permet d'accéder aux données RTE (Réseau de Transport d'Électricité) via l'API éCO2mix, offrant une vue détaillée du réseau électrique français.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
