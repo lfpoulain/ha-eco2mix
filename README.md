@@ -19,7 +19,7 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 
 ## 📋 Prérequis
 
-1. 🏠 Une installation Home Assistant fonctionnelle
+1. 🏠 Une installation Home Assistant **2024.12** fonctionnelle
 2. 🛠️ HACS (Home Assistant Community Store)
 3. 📊 Cartes personnalisées (via HACS) :
    - 📈 apexcharts-card
