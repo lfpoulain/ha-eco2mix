@@ -1,13 +1,16 @@
 {
   "domain": "eco2mix",
-  "name": "\u00e9CO2mix",
-  "codeowners": [],
+  "name": "éCO2mix",
+  "codeowners": ["@lfpoulain"],
   "config_flow": true,
   "documentation": "https://github.com/lfpoulain/ha-eco2mix",
   "integration_type": "service",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/lfpoulain/ha-eco2mix/issues",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "requirements": ["pytz>=2022.1"],
-  "single_config_entry": true
+  "single_config_entry": true,
+  "homeassistant": {
+    "min_version": "2024.12.0"
+  }
 }
