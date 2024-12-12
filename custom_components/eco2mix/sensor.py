@@ -258,7 +258,6 @@ class Eco2mixSensor(CoordinatorEntity[Eco2mixDataUpdateCoordinator], SensorEntit
             manufacturer="LFPoulain",
             name="éCO2mix",
             model="Integration Eco2Mix RTE via open data ODRE",
-            sw_version="1.0.0",
         )
         self._attr_unique_id = f"eco2mix-{description.key}".lower()
         self.entity_description = description
@@ -291,5 +290,4 @@ class Eco2mixBaseSensor(CoordinatorEntity[Eco2mixDataUpdateCoordinator], SensorE
             "name": "éCO2mix",
             "manufacturer": "LFPoulain",
             "model": "Integration Eco2Mix RTE via open data ODRE",
-            "sw_version": "1.0.0",
         }
