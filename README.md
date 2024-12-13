@@ -49,10 +49,7 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 1. Aller dans Configuration > Intégrations
 2. Cliquer sur le bouton "+" 
 3. Rechercher "éCO2mix"
-4. Sélectionner les capteurs souhaités
-
-![Configuration Interface](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/refs/heads/main/images/config.png)
-
+4. Ajoutez l'intégration 
 
 ## 📊 Dashboard
 
