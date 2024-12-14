@@ -53,7 +53,7 @@ Cette intégration Home Assistant vous permet d'accéder aux données RTE (Rése
 
 ## 📊 Dashboard
 
-Un dashboard d'exemple est disponnible :
+Un dashboard d'exemple est disponnible : [eco2mix.yaml](https://github.com/lfpoulain/ha-eco2mix/blob/main/dashboards/eco2mix.yaml)
 
 ![Main View](https://raw.githubusercontent.com/lfpoulain/ha-eco2mix/refs/heads/main/images/main_view.png)
 
