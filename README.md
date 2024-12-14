@@ -61,6 +61,8 @@ Un dashboard d'exemple est disponnible : [eco2mix.yaml](https://github.com/lfpou
 - 📈 Graphique d'évolution 24h
 - 🥧 Répartition de la production
 
+> Il faudra probablement modifier les entités utilisé dans le dashboard car elles peuvent être nommées différemment sur votre homeassistant
+
 ### Sources d'Énergie Suivies
 
 | Source | Icône |
